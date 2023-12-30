@@ -1,0 +1,2 @@
+const interopDefault=e=>e.default||e||[],e={"node_modules/nuxt/dist/app/entry.js":()=>import("./_nuxt/entry-styles.DisOMdDG.mjs").then(interopDefault),"node_modules/@nuxt/ui-templates/dist/templates/error-500.vue":()=>import("./_nuxt/error-500-styles.vMIeuOQq.mjs").then(interopDefault),"node_modules/@nuxt/ui-templates/dist/templates/error-404.vue":()=>import("./_nuxt/error-404-styles.XRz1-5H_.mjs").then(interopDefault)};export{e as default};
+//# sourceMappingURL=styles.mjs.map

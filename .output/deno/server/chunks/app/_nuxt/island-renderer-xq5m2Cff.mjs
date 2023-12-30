@@ -1,0 +1,2 @@
+import{defineComponent as t,onErrorCaptured as o,createVNode as e}from"npm:vue";import{c as n}from"../server.mjs";const s={},r=t({props:{context:{type:Object,required:!0}},setup(t){const r=s[t.context.name];if(!r)throw n({statusCode:404,statusMessage:`Island component not found: ${t.context.name}`});return o((t=>{console.log(t)})),()=>e(r||"span",{...t.context.props,"nuxt-ssr-component-uid":""})}});export{r as default};
+//# sourceMappingURL=island-renderer-xq5m2Cff.mjs.map

@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "elysia":"bun .output/elysia/server/index.mjs",
+    "bun":"bun .output/bun/server/index.mjs",
+    "standard-node":"node .output/node/server/index.mjs",
+    "standard-bun":"bun .output/node/server/index.mjs",
+    "deno":"deno task --config .output/deno/deno.json start"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.0",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@types/bun": "^1.0.0",
+    "elysia": "^0.8.5"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "start": "deno run --unstable --allow-net --allow-read --allow-env ./server/index.mjs"
+  }
+}
